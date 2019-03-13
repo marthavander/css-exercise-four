@@ -1,4 +1,126 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
   font-size: 10px;
+  color: #000000;
 }
+
+.baku, .london, .madrid, .rome {
+  text-align: left;
+  padding: 0;
+  text-transform: none;
+  letter-spacing: normal;
+  padding: 5% 0 0 10%;
+}
+
+.container  {
+  margin: 5% 0;
+  font-family: sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.preview  {
+  font-size: 1.6em;
+}
+
+.preview  {
+  margin: 5% 0;
+  padding-bottom: 60%;
+}
+
+div {
+  margin: auto;
+  font-family: serif;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: relative;
+  display: block;
+  font-size: 1.5em;
+}
+
+div.baku {
+  background-image: url("../images/baku2.jpg");
+}
+
+div.london {
+  background-image: url("../images/london2.jpg");
+}
+
+div.madrid {
+  background-image: url("../images/madrid2.jpg");
+}
+
+div.rome {
+  background-image: url("../images/rome2.jpg");
+}
+
+@media screen and (min-width: 575px){
+  .container  {
+    margin: 5% 0;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    line-height: 2em;
+    text-align: center;
+  }
+
+  div {
+    font-family: serif;
+    width: 33%;
+    margin: 1%;
+    background-size: cover;
+    background-position: fixed;
+    display: inline-block;
+    font-size: 1.2em;
+  }
+
+  .preview  {
+    margin: 1% 0;
+    font-size: 1.3em;
+  }
+
+  .baku, .london, .madrid, .rome {
+    padding: 1% 0 17% 2%;
+  }
+}
+
+  @media screen and (min-width: 991px){
+    .container  {
+      margin: 2%;
+      font-family: sans-serif;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 1.5em;
+      text-align: center;
+      align-items: center;
+    }
+
+    div  {
+      width: 20%;
+      font-family: serif;
+      background-size: contain;
+      background-position: fixed;
+      display: inline-block;
+      font-size: 1.3em;
+    }
+
+    .preview  {
+      margin: 2% 1%;
+    }
+
+.baku, .london, .madrid, .rome {
+        padding: 1% 0 20% 1%;
+      }
+
+  }
